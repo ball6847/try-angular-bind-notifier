@@ -4,6 +4,7 @@
   "description": "Blendid powered angularjs starter (typescript + ng-metadata)",
   "dependencies": {
     "angular": "^1.6.6",
+    "angular-bind-notifier": "^1.1.8",
     "angular-ui-router": "^0.4.3",
     "blendid": "^4.3.0",
     "bootstrap-sass": "^3.3.7",
@@ -13,6 +14,7 @@
     "lodash": "^4.17.4",
     "mobx": "^3.3.1",
     "ng-metadata": "^4.0.1",
+    "ng-steroids-change-detector": "^0.3.0",
     "rxjs": "^5.4.3"
   },
   "scripts": {

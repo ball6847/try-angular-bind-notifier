@@ -107,6 +107,10 @@ amdefine@>=0.0.4:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/amdefine/-/amdefine-1.0.1.tgz#4a5282ac164729e93619bcfd3ad151f817ce91f5"
 
+angular-bind-notifier@^1.1.8:
+  version "1.1.8"
+  resolved "https://registry.yarnpkg.com/angular-bind-notifier/-/angular-bind-notifier-1.1.8.tgz#bb0a367651c43993fa0bbb5a25de5482a923cbbe"
+
 angular-ui-router@^0.4.3:
   version "0.4.3"
   resolved "https://registry.yarnpkg.com/angular-ui-router/-/angular-ui-router-0.4.3.tgz#6c29546fe50b8d2f74614dcb8660d6fc40d6e167"
@@ -4639,6 +4643,10 @@ next-tick@1:
 ng-metadata@^4.0.1:
   version "4.0.1"
   resolved "https://registry.yarnpkg.com/ng-metadata/-/ng-metadata-4.0.1.tgz#c367018ac9e5c214c57b987e82940a30fd4b9c67"
+
+ng-steroids-change-detector@^0.3.0:
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/ng-steroids-change-detector/-/ng-steroids-change-detector-0.3.0.tgz#3c8f8ba0b798983f778689b95221497a53ea74b5"
 
 no-case@^2.2.0:
   version "2.3.2"

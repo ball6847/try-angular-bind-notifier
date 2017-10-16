@@ -2,11 +2,8 @@ declare var $: any
 declare var PREFIX: string
 
 import { NgModule } from 'ng-metadata/core'
-import { provideState } from './app-routing'
 import { AppComponent } from './app.component'
-import { HomeComponent } from './home/home.component'
-import { NavComponent } from './nav/nav.component'
-import { AboutComponent } from './about/about.component'
+import 'angular-bind-notifier'
 
 const prefixProvider = {
   provide: "PREFIX",
@@ -16,15 +13,12 @@ const prefixProvider = {
 @NgModule({
   imports: [
     'ui.router',
+    'angular.bind.notifier',
   ],
   declarations: [
     AppComponent,
-    HomeComponent,
-    NavComponent,
-    AboutComponent,
   ],
   providers: [
-    provideState,
     prefixProvider,
   ],
 })
